@@ -1,0 +1,45 @@
+
+#segments{
+    max-width: 1600px;
+    margin: auto;
+    margin-bottom: 255px;
+    font-family: 'Montserrat';
+}
+
+#segments-container{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.segments-box{
+    max-width: 300px;
+    padding: 10px 50px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.segments-box-title{
+    padding-left: 60px;
+    margin-top: -24px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.segments-box-paragraph{
+    font-size: 14px;
+    padding-left: 70px;
+}
+
+.svg1{
+   border-right: 1px solid gray;
+   padding: 3px 5px;
+}
+
+.svg2{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 3px 5px;
+ }

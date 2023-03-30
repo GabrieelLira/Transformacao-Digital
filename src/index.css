@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+
+@import 'header.css';
+@import 'notification.css';
+@import 'service.css';
+@import 'segments.css';
+@import 'location.css';
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Montserrat'
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.title{
+  font-size: 39px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.paragraph{
+  max-width: 1000px;
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  color: #595959;
+  margin-bottom: 70px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px;               
+}
+  
+body::-webkit-scrollbar-track {
+  background: white;        
+}
+  
+body::-webkit-scrollbar-thumb {
+  background-color: gray;       
+}
+
+ 
+.weight{
+  font-weight: 600;
+}
+  
+footer{
+  background-color: #1A1A1A;
+  color: white;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo{
+  float: left;
+  margin: auto 40px;
+  font-size: 35px;
+}
+
+#copy{
+  margin: auto 40px;
+  float: right;
+  font-size: 12px;
+}
+
+
+
+

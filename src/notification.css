@@ -1,0 +1,51 @@
+
+#notification-container{
+    display: flex;
+    max-width: 1260px;
+    margin: auto;
+    font-family: 'Montserrat';
+    margin-bottom: 254px;
+}
+
+#notification-right{
+    max-width: 523px;
+}
+
+#notification-right h2{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#notification-right p{
+    font-weight: 500;
+    margin-bottom: 38px;
+    text-align: left;
+}
+
+#notification-left{
+    max-width: 645px;
+    margin-right: 90px;
+}
+
+#notification-left img{
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+
+#notification-right button{
+    background-color: white;
+    color: #0074FF;
+    padding: 16px 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: auto;
+    cursor: pointer;
+}
+
+#notification-right button:hover{
+    box-shadow: 0px 0px 13px 0px #0000008c;;
+}

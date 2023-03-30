@@ -1,0 +1,64 @@
+
+#service{
+    font-family: 'Montserrat';
+    margin: auto;
+    margin-bottom: 178px;
+}
+
+#service .paragraph{
+    margin-bottom: 64px;
+}
+
+#service-container{
+    display: flex;
+    max-width: 1050px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.service-block{
+    display: flex;
+}
+
+.service-box{
+    color: white;
+    max-width: 252px;
+    margin: 40px 5.2px;
+    background-color: #0074FF;
+}
+
+.number{
+    font-size: 120px;
+    font-weight: 800;
+    color: #036BE8;
+    margin-bottom: -64px;
+    margin-left: 10px;
+    padding-right: 10px;
+
+}
+
+.service-box-title{
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 58px;
+}
+
+.service-box-paragraph{
+    padding: 0px 20px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.bot-space{
+    padding-bottom: 62px;
+}
+
+#service-svg{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    top: 1770px;
+}

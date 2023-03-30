@@ -1,0 +1,30 @@
+
+#location-container{
+    font-family: 'Montserrat';
+    margin: auto;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#location{
+    margin: auto;
+    box-shadow: 0px 0px 12px 1px #00000048;
+    border-radius: 5px;
+    max-width: 780px;
+    height: 400px;
+}
+
+#location-container #location div{
+    margin: auto;
+}
+
+#location-svg{
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    top: 920px;
+}
+
+.mapouter{position:relative;text-align:right;height:400px;max-width:780px;}
+
+.gmap_canvas{overflow:hidden;background:none!important;height:400px;max-width:780px;}
